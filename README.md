@@ -10,7 +10,7 @@ Polito developed some internal packages based on the tools above. Namely:
 - A compatible [fork of gem5](https://github.com/cad-polito-it/gem5);
 - The [ase_riscv_gem5_sim](https://github.com/cad-polito-it/ase_riscv_gem5_sim) project (which bundles some of the above).
 
-I had to make a few changes to get this running on my machine (OS is Arch Linux).
+I had to make a few changes to get these running on my machine (OS is Arch Linux).
 The main problem is that it's quite hard to get Python 3.10 running stable on a rolling release distro.
 The solution is a bit ugly, but:
 - `libs` contains some `.so`s the fork of gem5 links to;
